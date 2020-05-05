@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: my.aws.api
+---
+testFramework: junit
+sourceLanguage: java

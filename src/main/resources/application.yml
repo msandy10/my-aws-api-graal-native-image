@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: my-aws-api-dev
+  server:
+    port: 3000
+
+datasources:
+  default:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/entitlements?useServerPrepStmts=false&rewriteBatchedStatements=true
+    username: root
+    password: passcode
+    maxpoolsize: 2
+    minidle: 1
+    idletimeout: 10000
